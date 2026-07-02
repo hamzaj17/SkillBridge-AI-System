@@ -174,26 +174,7 @@ Interactive API docs: **http://localhost:8000/docs**
 
 ---
 
-## 🗄️ MongoDB Collections
-
-```json
-users:      { username, email, password (hashed), created_at }
-reports:    { username, predicted_career, missing_skills, match_percentage, ... }
-```
-
 > **Note:** The app works fully without MongoDB using an in-memory fallback store. Data is lost on restart but all features remain functional.
-
----
-
-## 🌐 Deployment
-
-| Service | Platform |
-|---|---|
-| Frontend | Vercel (`vercel deploy`) |
-| Backend | Railway / Render |
-| Database | MongoDB Atlas |
-
-Set `NEXT_PUBLIC_API_URL` to your deployed backend URL.
 
 ---
 
@@ -201,6 +182,3 @@ Set `NEXT_PUBLIC_API_URL` to your deployed backend URL.
 
 AI Engineer · Data Analyst · Data Scientist · Frontend Developer · Backend Developer · Full Stack Developer · DevOps Engineer · Cybersecurity Analyst · Cloud Engineer · Mobile Developer
 
----
-
-*Built with Next.js · FastAPI · MongoDB · scikit-learn · Chart.js*
